@@ -1,14 +1,14 @@
 <template>
   <section
-    class="mt-56 mb-20 xl:mt-28 bg-no-repeat sm:bg-center mx-auto flex flex-row flex-wrap items-stretch"
+    class="mt-72 mb-20 xl:mt-28 bg-no-repeat sm:bg-center mx-auto flex flex-row flex-wrap items-stretch"
   >
     <img
-      class="image  transform -translate-x-20 -translate-y-20 scale-75 xl:scale-100 xl:translate-x-0 xl:translate-y-0 -mt-48 -mt-24 xl:-mt-16 xl:ml-32"
+      class="image   transform  -translate-y-14 scale-100 xl:scale-100 xl:translate-x-0 xl:translate-y-0  -mt-44 xl:-mt-16 xl:ml-32"
       src="@/images/illustration-phones.svg"
     />
     <div class="">
       <p
-        class="break-all text-4xl mb-5 -mt-28 ml-14 mr-14 font-light xl:font-normal xl:text-4xl xl:mt-32 xl:ml-14 xl:mb-5"
+        class=" text-4xl mb-5 -mt-10 ml-10 mr-10 font-light xl:font-normal xl:text-4xl xl:mt-32 xl:ml-14 xl:mb-5"
       >
         State of the Art Infrastructure
       </p>
@@ -61,7 +61,7 @@
     color: hsl(0, 0%, 100%);
   }
   .image{
-    max-width: none;
+   
   }
 }
 

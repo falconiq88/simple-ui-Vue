@@ -7,23 +7,21 @@
     </h3>
     <div class="section1 None flex flex-row-reverse flex-wrap items-stretch">
       <img
-      v-if="width>768"
-        class=" order-1 object-contain transform img1 m-20 h-full xl:-mr-56 xl:-mt-10 xl:scale-100 translate-x-8 sm:translate-x-20 translate-y-10 scale-150 -mr-30 md:translate-x-20 md:scale-125 -mr-9 lg:scale-100 lg:mx-auto"
+        v-if="width > 768"
+        class="order-1 object-contain transform img1 m-20 h-full xl:-mr-56 xl:-mt-10 xl:scale-100 translate-x-8 sm:translate-x-20 translate-y-10 scale-150 -mr-30 md:translate-x-20 md:scale-125 -mr-9 lg:scale-100 lg:mx-auto"
         src="../images/illustration-editor-desktop.svg"
       />
-       <img
-      v-if="width<768"
-        class=" order-1  mx-auto transform scale-110 mt-16"
+      <img
+        v-if="width < 768"
+        class="order-1 mx-auto transform scale-110 mt-16"
         src="../images/illustration-editor-mobile.svg"
       />
-
-   
 
       <div
         class="head order-2 xl:text-left sm:text-center md:text-center h-auto xl:mt-64 xl:w-2/5"
       >
         <p
-          class="space-x-4   text-3xl font-semibold xl:text-left sm:text-center mt-20 mr-10 ml-10 sm:mt-20 md:text-center xl:ml-10 xl:-mt-7"
+          class="space-x-4 text-3xl font-semibold xl:text-left sm:text-center mt-20 mr-10 ml-10 sm:mt-20 md:text-center xl:ml-10 xl:-mt-7"
         >
           introducing an extensible editor
         </p>
@@ -41,7 +39,9 @@
         >
           Robust content mangement
         </p>
-        <p class="mt-5 ml-5 mr-5 xl:mt-6 xl:ml-10 font-light text-base sm:m-10 md:m-10  xl:font-light">
+        <p
+          class="mt-5 ml-5 mr-5 xl:mt-6 xl:ml-10 font-light text-base sm:m-10 md:m-10 xl:font-light"
+        >
           Flexible content mangement enables users to easily move through posts.
           Increase the usabillity of your blog by adding custmized categories,
           sections,format, or flow. With this functionality, you're in full
@@ -56,12 +56,11 @@
 export default {
   data() {
     return {
-      width:screen.width
-    }
+      width: screen.width,
+    };
   },
-}
+};
 </script>
-
 
 <style lang="scss" scoped>
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
