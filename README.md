@@ -1,4 +1,4 @@
-# vue3
+# landing page with tailwind
 
 ## Project setup
 ```
